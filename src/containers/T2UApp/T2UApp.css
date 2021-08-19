@@ -1,0 +1,45 @@
+.fade-enter {
+  opacity: 0.01;
+}
+
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 300ms ease-in;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit.fade-exit-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
+
+div.transition-group {
+  position: relative;
+}
+
+html,
+body,
+#root,
+.height100 {
+  margin: 0;
+  min-height: 100vh;
+  /* height: 100%; */
+}
+.footer {
+  margin-top: auto;
+}
+/* }
+section.route-section {
+ position: absolute;
+ width: 100%;
+ top: 0;
+ left: 0;
+} */
+
+.popover-container > .popover {
+  max-width: 1000px;
+  width: 28em;
+}
